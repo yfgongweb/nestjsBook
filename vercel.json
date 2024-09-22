@@ -1,5 +1,5 @@
 {
-  "outputDirectory": ".vitepress/dist",
+  "outputDirectory": "docs/.vitepress/dist",
   "headers": [
     {
       "source": "/assets/(.*)",
