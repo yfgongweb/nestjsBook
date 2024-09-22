@@ -4,6 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "nestdoc",
   description: "nest",
+  ignoreDeadLinks: [
+    /^http:\/\/localhost/,
+    /^https?:\/\/[^/]+:\d+/ // 匹配所有带端口号的链接
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
