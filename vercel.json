@@ -6,10 +6,10 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": ".vitepress/dist/$1"
+      "source": "/(.*)",
+      "destination": ".vitepress/dist/$1"
     }
   ],
   "cleanUrls": true,
