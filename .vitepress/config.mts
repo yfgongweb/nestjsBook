@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "nestdoc",
-  base: '/',
+  base: '/doc/',
   description: "nest",
   ignoreDeadLinks: [
     /^http:\/\/localhost/,
